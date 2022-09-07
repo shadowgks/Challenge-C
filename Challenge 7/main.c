@@ -33,7 +33,7 @@ int Modulo(){
 int main()
 {
     printf("###############################\n");
-    printf("\tChallenge 5\n");
+    printf("\tChallenge 8\n");
     printf("###############################\n");
 
     printf("Entrez le nombre A: ");
