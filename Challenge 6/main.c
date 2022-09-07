@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int main()
 {
     printf("###############################\n");
-    printf("\tChallenge 5\n");
+    printf("\tChallenge 6\n");
     printf("###############################\n");
 
     float C,F;
@@ -15,21 +14,10 @@ int main()
 
     C = (F-32)/1.8;
 
-    if(C < 0){
-        printf("tres froid!");
-    }else if(C <= 20){
-        printf("froid!");
-    }else if(C <= 40){
-        printf("chaud!");
-    }else{
-        printf("tres chaud!");
-    }
-
     printf("\n");
     printf("###############################\n");
     printf("\tResultat\n");
     printf("###############################\n");
     printf("la transforme en degre Celsius est: %.2f",C);
-
     return 0;
 }
