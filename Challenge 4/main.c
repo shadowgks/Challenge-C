@@ -1,24 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main()
 {
     printf("###############################\n");
-    printf("\tChallenge 2\n");
+    printf("\tChallenge 4\n");
     printf("###############################\n");
 
     float Mile,M,KM;
     const float N = 1.609;
-    printf("Entez la distance en Metre: ");
-    scanf("%f",&M);
+    printf("Entez la distance en Mile: ");
+    scanf("%f",&Mile);
 
-    KM = M / 1000;
-    Mile = KM * N;
+
+    KM = Mile/1.609;
+    M = KM * 1000;
 
     printf("###############################\n");
     printf("\tResultat\n");
     printf("###############################\n");
-    printf("la transforme en Mile est: %.2f",Mile);
+    printf("la transforme en Mitre est: %.2f",M);
 
     return 0;
 }
+
