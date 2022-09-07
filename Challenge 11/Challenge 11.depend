@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1662577194 source:c:\users\conan k\desktop\challenged c\challenge-c\challenge 11\main.c
+	<stdio.h>
+	<stdlib.h>
+
