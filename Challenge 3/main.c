@@ -4,7 +4,7 @@
 int main()
 {
     printf("###############################\n");
-    printf("\tChallenge 2\n");
+    printf("\tChallenge 3\n");
     printf("###############################\n");
 
     int C;
@@ -22,4 +22,3 @@ int main()
 
     return 0;
 }
-
