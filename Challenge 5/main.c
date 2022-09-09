@@ -10,16 +10,16 @@ int main()
 
     float C,F;
     const float N = 1.8;
-    printf("Entez la distance en Mile: ");
+    printf("Entez la température en Fahrenheit: ");
     scanf("%f",&F);
 
     C = (F-32)/1.8;
 
     if(C < 0){
         printf("tres froid!");
-    }else if(C <= 20){
+    }else if(C > 0 && C <= 20){
         printf("froid!");
-    }else if(C <= 40){
+    }else if(C > 20 && C <= 40 ){
         printf("chaud!");
     }else{
         printf("tres chaud!");

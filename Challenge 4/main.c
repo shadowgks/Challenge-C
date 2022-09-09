@@ -8,7 +8,7 @@ int main()
     printf("\tChallenge 4\n");
     printf("###############################\n");
 
-    float Mile,M,KM;
+    float Mile,M,KM; //var refactorie
     const float N = 1.609;
     printf("Entez la distance en Mile: ");
     scanf("%f",&Mile);
